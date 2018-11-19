@@ -1,0 +1,64 @@
+   body{
+   background-image: url(/img/bg7.jpg);   
+   background-color: #1E90FF;
+   color: white;   
+   }
+      
+   #img_div{
+   	width: 65%;
+   	padding: 5px;
+   	margin: 15px auto;
+   	border: 1px solid white;
+      border-radius: 13px;
+      font-size: 18pt;
+      background: rgba(0, 0, 0, 0.7);      
+   }
+   #img_div:after{
+   	content: "";
+   	display: block;
+   	clear: both;
+   }
+   #msg{
+      width: 90%;
+      word-wrap: break-word;
+   }
+   img{
+   	float: left;
+   	margin: 5px;
+   	width: 150px;
+   	height: 150px;
+      border: 1.5px solid white;
+      border-radius: 8px;
+   }  
+   
+   .btn-outline-info{
+      margin-left: 5px;
+   }
+   span{
+      font-weight: bold;
+      margin-left: 5px;
+   }   
+   .btn-outline-warning{
+      margin-top: 1%;
+      margin-left: 2%;
+      margin-bottom: 0.5%;   
+   }   
+   #bkimg{
+      width: 100px;
+      height: 150px;
+   }
+   #btp{
+      margin: auto;
+      margin-top: 2%;
+      width:60%;      
+   }
+   a{
+      text-decoration: none !important;
+   }
+   input{
+      border: 1px solid yellow;
+      color: yellow;
+      background-color: transparent;
+      border-radius: 3px;
+   }
+   
